@@ -83,7 +83,7 @@ for (i in input){
 		hrefstart = "<a href='" + input[i][3] + "'>"
 		hrefend = "</a>"
 	} 
-	if (input[i][4]!=undefined) imagetag = "<img src='"+input[i][4]+"' alt='' />"
+	if (input[i][4]!=undefined) imagetag = "<img style='max-width: 100%' src='"+input[i][4]+"' alt='' />"
 	
 	var announce = $("<!--Announcements -->" +
 		"<div class='container'>" +
